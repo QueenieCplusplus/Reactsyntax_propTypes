@@ -7,19 +7,19 @@
 
 例如：
 
-...
+    ...
 
-propTypes:{
+    propTypes:{
 
-    id: React.PropTypes.string,
-    name:  React.PropTypes.string.isRequired, 
-    //description
-    value: React.PropTypes.string.isRequired, 
-    checked: React.PropTypes.bool
+        id: React.PropTypes.string,
+        name:  React.PropTypes.string.isRequired, 
+        //description
+        value: React.PropTypes.string.isRequired, 
+        checked: React.PropTypes.bool
 
-},
+    },
 
-...
+    ...
 
 # getDefaultProps()
 
