@@ -24,3 +24,17 @@
 # getDefaultProps()
 
 已 deprecate, 因於實作元件時並不會執行，對於實例的專屬資料毫無意義。
+他只存在於當建立 class 時所產生的 cache 中。
+
+ getDefaultProps: function () {
+ 
+    return {
+    
+        id: null,
+        checked: false
+    
+   
+    };
+ 
+ 
+ }
