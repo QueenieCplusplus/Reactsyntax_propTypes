@@ -3,4 +3,4 @@
 
 # getDefaultProps()
 
-已 deprecate, 因於實作元件時並不會執行。
+已 deprecate, 因於實作元件時並不會執行，對於實例的專屬資料毫無意義。
